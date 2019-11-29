@@ -1,0 +1,147 @@
+h3{
+	padding:0 0 0 10px;
+}
+#fixed{
+	position:fixed;
+	top:0;
+	background:black !important;
+}
+form#edicao label{
+	text-align:left;
+}
+form#fisico label{
+	text-align:left;
+}
+form#juridico label{
+	text-align:left;
+}
+form#upload label{
+	text-align:left;
+}
+.fisico{
+	display:block;
+}
+#formf{
+	color:black;
+}
+#formf:hover{
+	color:grey;
+}
+#formf:active{
+	color:grey;
+}
+
+.juridico{
+	display:none;
+}
+#formj{
+	color:black;
+}
+#formj:hover{
+	color:grey;
+}
+#formj:active{
+	color:grey;
+}
+
+#ativo a:visited{
+color:white !important;
+background:black!important;
+}
+#ativo a:hover{
+color:black !important;
+background:white!important;
+}
+
+#inativo a{
+color:grey !important;
+background:black!important;
+}
+#inativo a:hover{
+color:black !important;
+background:white!important;
+}
+#ativo #inativo1 a{
+color:grey !important;
+background:black!important;
+}
+#ativo #inativo1 a:hover{
+color:black !important;
+background:white!important;
+}
+#dropdown_menu{
+	color:white;
+	background:black;
+	font-size:0.8em;
+	height:auto;
+}
+
+td a{
+	color:black;
+}
+td a:hover{
+	color:grey;
+}
+#lateral{
+	margin:0;
+	padding:0;
+	background:grey;
+	height:100%;
+}
+#adm_pagina{
+	margin-top:100px;
+	background:white;
+	height:auto;
+}
+#usuario{
+	width:100%;
+	padding:0 0px 0 0;
+	background:white;
+}
+#link{
+padding:0px;
+margin:0px;
+}
+#link ul,.well{
+	padding:0;
+	margin:0;
+	
+}
+#links_usuario a,#links_upload a{
+	font-size:10pt;
+}
+#link ul li{
+	padding-left:10px;
+	background:white;
+}
+#link ul li a{
+	font-size:16pt;
+	color:black;
+}
+#link_usuario,#link_upload{
+	text-decoration:none;
+}
+#link ul li a:hover,#link ul li:hover{
+background:grey;
+text-decoration:none; 
+}
+#link_botao{
+	border-radius:10px;
+	background:white;
+	color:black;
+	margin:0 10px 0 10px;
+
+}
+a:hover #link_botao{
+	background:grey;
+}
+
+#paginacao{
+	width:100%;
+	text-align:center;
+}
+
+#cor_botao{
+	display: inline-block;
+	float:center;
+}

@@ -1,0 +1,394 @@
+body,html {
+	font-family: 'Open Sans', sans-serif;
+	padding:0;
+	margin:0;
+	height:100%;
+	width:100% !important;
+}
+
+#collpase{
+	display:none;
+}
+#teste{
+	display:block;
+}
+
+.dropdown:hover #dropdown_menu{
+    color:red;
+    display:block!important;
+  }
+  .dropdown_menu{
+    display:none!important;
+  }
+#dropdown_menu{
+	color:white;
+	background:black;
+	font-size:0.9em;
+	height:auto;
+	width:auto;
+	float:right;
+	padding:0;
+	margin:0;
+	line-height:110px;
+}
+#ir_home a{
+	position:absolute;
+	top:0;
+	left:1px;
+	text-decoration: none;
+color:black;
+font-size:1.5em;
+}
+#login{
+	width: 90%;
+	min-height:100%;
+	background: grey;
+}
+#user_img{
+	margin:25% 25% 10px 0;
+}
+#menu ul li a, #fixed ul li a{
+color:white;
+}
+#menu ul li a:hover,#fixed ul li a:hover{
+	color:black;
+	background:white;
+}
+#menu_login{
+	background:black;
+}
+#carousel-example-generic{
+	z-index:0;
+	width:100%;
+	height:100%;
+	background:invisible;
+}
+#item{
+	background:red;
+	width:100%;
+	height:100%;
+}
+#menu_login  li a{
+background:black;
+color:white;
+}
+#menu_login li a:hover{
+	background:white;
+	color:black;
+}
+
+#fixed{
+	display:block;
+	position:fixed;
+	z-index:3;
+	background:black;
+	width:100%;
+	font-size:1.5em;	
+	margin-left:0;
+}
+
+#acompanhe{
+	background:white;
+	width:22.7%;
+	margin:0% 0 1% 1%;
+}
+.container-fluid{
+	height:auto;
+}
+section{
+	z-index:1;
+	width:100%!important;
+}
+#img_slider{
+	background:invisible;
+	width:100%;
+}
+#home,#quem,#servicos,#contato{
+	padding:50px 0 0 0;
+}
+#home{
+	background:url(fundo.png);
+	height:100%;
+
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#beneficios{
+	margin-left:0;
+	text-align:left;
+	margin-left:25%;
+}
+#texto{
+	font-family: arial;
+	font-size:1.2em;
+	text-align: justify;
+}
+#titulo{
+	font-size:2.5em;
+	font-family:Tahoma;
+}
+
+#fluid_home{
+	width:100%;
+background:invisible;	
+}
+#fluid_quem{
+	width:100%;
+background:#bcbdbf;	
+}
+#fluid_servicos{
+	width:100%;
+background:white;	
+}
+#fluid_contato{
+	width:100%;
+background:#bcbdbf;	
+}
+
+
+#quadro1,#quadro2,#quadro3,#quadro4,#quadro5{
+	width:20%;
+	float:left;
+	padding:0 1% 0 1%;
+	font-size:23px;
+}
+#owl-demo{
+	background:invisible;
+}
+
+#slider{
+	background:invisible;
+}
+@media screen and (min-width:1600px) {
+#quadro1,#quadro2,#quadro3,#quadro4,#quadro5{
+	font-size:25px;
+}
+#home{
+	height:auto;	
+}
+
+}
+@media screen and (min-width:1201px) {
+#form_group{
+	padding:4% 0 4% 0;
+	font-family:arial;
+}
+
+	#botao1{
+	margin:0 auto;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao2{	
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#btnPedido{
+	margin-top: 10px;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao3{
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+}
+@media screen and (min-height:680px max-height:690px){
+	#home{
+	height:auto;
+}
+}
+@media screen and (min-height:690px){
+	#home{
+	height:auto!important;
+}
+}
+@media screen and (max-width:1023px){
+	#home{
+	height:auto;
+}
+}
+@media screen and (max-width:1199px){
+
+	#botao1{
+	margin:0 auto;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao2{
+
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#btnPedido{
+	margin-top: 10px;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao3{
+
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#form_group{
+	padding:0;
+}
+#acompanhe{
+	background:white;
+	width:96%;
+	margin-left:2%;
+}
+}
+@media screen and (max-width:800px) {
+#foto1,#foto2,#foto3{
+	width:70%;
+	margin-left:15%;
+}
+#collpase{
+	display:none;
+}
+#teste{
+	display:none;
+}
+#home{
+	height:auto;
+}
+#acompanhe{
+margin-left:2%;
+width:96%;
+}
+#botao1{
+	
+	margin:0 auto;
+	border-radius:10px;
+	background:white;
+	float:right;
+
+}
+#botao2{
+	
+	border-radius:10px;
+	background:white;
+	float:right;
+	
+}
+#btnPedido{
+	margin-top: 10px;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao3{
+	
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#form_group{
+	padding:0;
+	font-family:Tahoma;
+}
+#quadro1,#quadro2,#quadro3,#quadro4,#quadro5{
+	font-size:16px;
+}
+#slider{
+	width:60%;
+	margin-left:20%;
+}
+}
+@media screen and (max-width:700px) {
+#quad1,#quad2,#quad3{
+	width:98%;
+	height:auto;
+	margin-left:1%;
+	padding:1% 0 0 0;
+}
+
+#botao1{
+	
+	margin:0 auto;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao2{
+	
+	border-radius:10px;
+	background:white;
+	float:right;
+	
+}
+#btnPedido{
+	margin-top: 10px;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#botao3{
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+#acompanhe{
+margin-left:12%;
+width:76%;
+}
+#quadro1,#quadro2,#quadro3,#quadro4,#quadro5{
+	font-size:18px;
+	font-family:Arial;
+	width:50%;
+	height:auto;
+	margin-left:25%;
+}
+#quadro1 img,#quadro2 img,#quadro3 img,#quadro4 img,#quadro5 img{
+margin:0 auto;
+}
+#slider{
+	width:60%;
+	margin-left:20%;
+}
+#form_group{
+	padding:0;
+	font-family:Tahoma;
+}
+.carousel-indicators{
+	display:none;
+}
+#home{
+	height:auto;
+}
+}
+@media screen and (max-width:425px){
+#dropdown{
+		position:relative;
+	}
+	#dropdown_menu{
+		position:relative;
+		width:100%;
+		height:auto;
+		
+}
+#collapse{
+		position:relative;
+}
+#btnPedido{
+	margin-top: 10px;
+	border-radius:10px;
+	background:white;
+	float:right;
+}
+}
